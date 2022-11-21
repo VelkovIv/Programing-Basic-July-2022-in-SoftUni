@@ -1,0 +1,5 @@
+deposit = float(input())
+months = int(input())
+anual_pers = float(input())
+total_amount = deposit + months * ((deposit * anual_pers/100) / 12)
+print(total_amount)
